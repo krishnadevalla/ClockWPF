@@ -14,8 +14,8 @@
     <Window.Resources>
         <local:ColorConvert x:Key="colorC" />
     </Window.Resources>
-    <Grid Background="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}">
-        <Grid Height="Auto" Width="Auto">
+    <Grid Background="Salmon">
+        <Grid x:Name="grid" Height="Auto" Width="Auto">
             <ItemsControl ItemsSource="{Binding HoursTicks}">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -69,8 +69,8 @@
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
-            
-            <Line Stroke="White" StrokeThickness="10" VerticalAlignment="Center" HorizontalAlignment="Center" X1="5" X2="5" Y1="0" Y2="-175" RenderTransformOrigin="0.5,0.5">
+
+            <Line Stroke="White" StrokeThickness="10" VerticalAlignment="Center" HorizontalAlignment="Center" X1="5" X2="5" Y1="0" Y2="-275" RenderTransformOrigin="0.5,0.5">
                 <Line.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -80,7 +80,7 @@
                     </TransformGroup>
                 </Line.RenderTransform>
             </Line>
-            <Line Stroke="Silver" StrokeThickness="10" VerticalAlignment="Center" HorizontalAlignment="Center" X1="5" X2="5" Y1="0" Y2="-100" RenderTransformOrigin="0.5,0.5">
+            <Line Stroke="Silver" StrokeThickness="10" VerticalAlignment="Center" HorizontalAlignment="Center" X1="5" X2="5" Y1="0" RenderTransformOrigin="0.5,0.5" Y2="-200">
                 <Line.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -90,7 +90,7 @@
                     </TransformGroup>
                 </Line.RenderTransform>
             </Line>
-            <Line Stroke="Red" StrokeThickness="10" VerticalAlignment="Center" HorizontalAlignment="Center" X1="5" X2="5" Y1="0" Y2="-175" RenderTransformOrigin="0.5,0.5">
+            <Line Stroke="Red" StrokeThickness="10" VerticalAlignment="Center" HorizontalAlignment="Center" X1="5" X2="5" Y1="0" Y2="-275" RenderTransformOrigin="0.5,0.5">
                 <Line.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
