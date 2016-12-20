@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Windows;
 
-namespace Text_Wrapper
+namespace Clock_WPF
 {
     /// <summary>
     /// Interaction logic for App.xaml

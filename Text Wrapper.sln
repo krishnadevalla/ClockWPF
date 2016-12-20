@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text Wrapper", "Text Wrapper\Text Wrapper.csproj", "{D57CF1E1-6275-4885-88AE-ABA56B365CE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clock WPF", "Text Wrapper\Clock WPF.csproj", "{D57CF1E1-6275-4885-88AE-ABA56B365CE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

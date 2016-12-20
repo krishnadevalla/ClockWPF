@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -12,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Text_Wrapper
+namespace Clock_WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -22,6 +23,25 @@ namespace Text_Wrapper
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+       
+    }
+    class ColorConvert : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (int.Parse(value.ToString()) % 3 == 0)
+            {
+                return "Red";
+            }
+            else
+                return "Yellow";
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
         }
     }
 }

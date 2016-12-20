@@ -1,7 +1,7 @@
-﻿<Application x:Class="Text_Wrapper.App"
+﻿<Application x:Class="Clock_WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Text_Wrapper"
+             xmlns:local="clr-namespace:Clock_WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
