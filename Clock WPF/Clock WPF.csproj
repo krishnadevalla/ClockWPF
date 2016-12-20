@@ -7,7 +7,7 @@
     <ProjectGuid>{D57CF1E1-6275-4885-88AE-ABA56B365CE6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Text_Wrapper</RootNamespace>
+    <RootNamespace>ClockWPF</RootNamespace>
     <AssemblyName>Clock With WPF</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
